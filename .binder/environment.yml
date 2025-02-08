@@ -24,11 +24,12 @@ dependencies:
 - sympy
 - traittypes
 # C++ Kernel
-- xeus-cling
-- xtensor
-- xtensor-blas
-- xwidgets
-- xleaflet
+# Disable the C++ kernel for now as it seems to cause mamba to not solve
+# - xeus-cling
+# - xtensor
+# - xtensor-blas
+# - xwidgets
+# - xleaflet
 # CLI tools
 - pip
 - vim
